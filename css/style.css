@@ -360,6 +360,7 @@ template {
 \*------------------------------------*/
 :root {
   /* Primary Colors */
+  --very-light-brown: rgb(238, 234, 233);
   --light-brown: rgb(216, 207, 204);
   --brown: rgb(176, 158, 153);
   --dark-brown: rgb(42, 34, 32);
@@ -373,11 +374,11 @@ template {
   --selection-bg-color: rgb(79, 169, 158);
   --body-bg-color: var(--brown);
   --body-font-color: var(--very-dark-brown);
-  --footer-bg-color: var(--body-font-color);
-  --footer-font-color: var(--body-bg-color);
+  --footer-bg-color: var(--very-dark-brown);
+  --footer-font-color: var(--light-brown);
   --btn-bg-color: var(--dark-green);
   --btn-font-color: var(--white);
-  --btn-hover-bg-color: var(--brown);
+  --btn-hover-bg-color: transparent;
   --btn-hover-font-color: var(--dark-brown);
 }
 
@@ -418,7 +419,7 @@ html {
 
 body {
   font-family: "Courgette", cursive;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 p {
@@ -426,7 +427,7 @@ p {
 }
 
 blockquote {
-  margin: 1.125rem 0;
+  margin: 1.5rem 0;
 }
 
 ul {
@@ -437,6 +438,11 @@ img {
   display: block;
   height: auto;
   max-width: 100%;
+}
+
+/* Using currentColor to inherit the color value */
+svg path {
+  fill: currentColor;
 }
 
 
@@ -458,8 +464,8 @@ img {
   margin: 0 auto;
   border-radius: 0.25em;
   background-color: var(--light-brown);
-  padding: 2.5rem 1.25rem;
-  max-width: 21rem;
+  padding: 2.5rem 1.5rem;
+  max-width: 28rem;
 }
 
 .app__icon {
@@ -469,13 +475,13 @@ img {
 }
 
 .app__text {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .app__author {
   text-align: right;
   color: var(--dark-green);
-  font-size: 1.25rem;
+  font-size: 1.45rem;
 }
 
 .app__btn {
@@ -486,7 +492,7 @@ img {
   border: 0.125rem solid var(--very-dark-brown);
   background-color: var(--btn-bg-color);
   color: var(--btn-font-color);
-  font-size: 1.25rem;
+  font-size: 1.65rem;
   transition: all 50ms ease-in-out;
 }
 
@@ -494,6 +500,11 @@ img {
 .app__btn:active {
   background-color: var(--btn-hover-bg-color);
   color: var(--btn-hover-font-color);
+}
+
+.app__btn:focus-visible {
+  outline: 0.3125rem dashed var(--dark-green);
+  outline-offset: 0.1875rem;
 }
 
 
@@ -509,9 +520,66 @@ img {
   font-weight: 700;
 }
 
+.footer__container {
+  max-width: 28rem;
+  margin: 0 auto;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.footer__link {
+  display: inline-block;
+  color: inherit;
+  transition: transform 50ms ease-in-out;
+}
+
+.footer__link:hover,
+.footer__link:active,
+.footer__link:focus {
+  transform: scale(1.05);
+  color: var(--very-light-brown);
+}
+
+.footer__link:focus-visible {
+  outline: 0.3125rem dashed var(--white);
+  outline-offset: 0.1875rem;
+  transform: scale(1.05);
+}
+
 
 
 
 /*------------------------------------*\
   #SOCIAL
 \*------------------------------------*/
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.social__item:not(:first-child) {
+  margin-left: 3rem;
+}
+
+.social__icon {
+  transform: scale(2);
+}
+
+.social__link {
+  display: inline-block;
+  color: inherit;
+}
+
+.social__link:hover,
+.social__link:active,
+.social__link:focus {
+  color: var(--very-light-brown);
+}
+
+.social__link:focus-visible {
+  outline: 0.3125rem dashed var(--white);
+  outline-offset: 0.1875rem;
+}
+
