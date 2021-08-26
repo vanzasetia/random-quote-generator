@@ -1,0 +1,23 @@
+{
+  "name": "generate-random-quotes",
+  "version": "1.0.0",
+  "description": "Created on 25 August 2021",
+  "main": "index.js",
+  "scripts": {
+    "markserv": "markserv README.md",
+    
+    "devserver": "browser-sync start --server  --watch --port='8080' --no-inject-changes",
+    "start": "npm-run-all --parallel devserver markserv",
+    
+    "prettier:html": "npx prettier --write *.html",
+    "comb:css": "csscomb css/ -v",
+    "standard:js": "standard --fix",
+    "format": "npm-run-all prettier:html comb:css standard:js",
+    
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.css --output css/style.css",
+    "build": "npm-run-all prettier:html prefix:css comb:css standard:js"
+  },
+  "keywords": [],
+  "author": "Vanza Setia",
+  "license": "MIT"
+}
