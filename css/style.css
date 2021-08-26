@@ -402,7 +402,7 @@ html {
 }
 
 body {
-  font-family: "Courgette", cursive;
+  font-family: "Mali", cursive;
   font-size: 1.25rem;
 }
 
@@ -411,7 +411,7 @@ p {
 }
 
 blockquote {
-  margin: 1.5rem 0;
+  margin: 1.8rem 0;
 }
 
 ul {
@@ -477,6 +477,7 @@ svg path {
   padding: 0.625rem 1.5rem;
   color: var(--btn-font-color);
   font-size: 1.65rem;
+  font-weight: 700;
   transition: all 50ms ease-in-out;
 }
 
@@ -499,8 +500,6 @@ svg path {
 .footer {
   background-color: var(--footer-bg-color);
   color: var(--footer-font-color);
-  font-family: "Mali", cursive;
-  font-weight: 700;
 }
 
 .footer__container {

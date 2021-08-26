@@ -95,6 +95,7 @@ Users should be able to:
 
 ### Useful Resources
 - [Code Newbie | Absolute vs Relative Path](https://community.codenewbie.org/vanzasetia/relative-vs-absolute-file-paths-4j1n) - It's a great article to clarify the confusion between those methods.
+- [Color Contrast Tester](https://colorable.jxnblk.com/) - Color contrast is important for accessibility. I used it when redesigned this app.
 - [Inspiration](https://js-beginners.github.io/random-quotes-project/) - The inspiration is part of the [100+ JavaScript Projects for Beginners.](https://jsbeginners.com/javascript-projects-for-beginners/)
 - [BEM By Examples](https://sparkbox.com/foundry/bem_by_example) - This helped me understand better about BEM. If you're still get confused about BEM, then check it out!
 - [Icomoon](https://icomoon.io) - For the quotes icon
