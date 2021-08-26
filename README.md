@@ -175,7 +175,7 @@ git push -u origin fixingbugs
 
 - Frontend Mentor - [@vanzasetia](https://www.frontendmentor.io/profile/vanzasetia)
 - Twitter - [@vanzasetia](https://www.twitter.com/vanzasetia)
-- Facebook - [Vanza Setia](https://facebook.com/people/Vanza-Setia/100071874075732)
+- Facebook - [Vanza Setia](https://www.facebook.com/profile.php?id=100071874075732)
 - Code Newbie - [@vanzasetia](https://community.codenewbie.org/vanzasetia)
 <!-- ENDOF Author -->
 
