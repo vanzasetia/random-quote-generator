@@ -109,6 +109,28 @@ Example:
 
 As you can see, it's much easier to read the text on the second image than the first one. To learn more about color and contrast, you can check the [WebAIM article about Contrast and Color Accessibility](https://webaim.org/articles/contrast/).
 
+#### "use strict" Method
+According to [W3School Site](https://www.w3schools.com/js/js_strict.asp), using strict mode can help developer to write cleaner and "secure" JavaScript code.
+
+**Watch Out!**
+> The "use strict" directive is only recognized at the beginning of a script or a function. 
+
+Meaning it must be declared on the first line of the file or function.
+
+```javascript
+"use strict"
+
+hello = "world" // will throw an error
+// This will work
+```
+
+```javascript
+const variable = "My string"
+"use strict"
+hello = "world" // Still allowed
+// This won't work
+```
+
 ### Useful Resources
 - [Code Newbie | Absolute vs Relative Path](https://community.codenewbie.org/vanzasetia/relative-vs-absolute-file-paths-4j1n) - It's a great article to clarify the confusion between those methods.
 - [Color Contrast Tester](https://colorable.jxnblk.com/) - Color contrast is important for accessibility. I used it when redesigned this app.
