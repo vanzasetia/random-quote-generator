@@ -64,7 +64,7 @@ Users should be able to:
 
 ### Links
 - [🌐 Live Review](https://vanzaquotegenerator.netlify.app/)
-- [📖 Code Newbie Article]()
+- [📖 Code Newbie Article](https://community.codenewbie.org/vanzasetia/random-quote-generator-a8o)
 
 ### Preview
 
