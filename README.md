@@ -36,6 +36,7 @@
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
     - [Color Contrast](#color-contrast)
+    - ["use strict" Method](#use-strict-method)
   - [Useful resources](#useful-resources)
   - [Continued development](#continued-development)
 - [How to contribute](#how-to-contribute)
