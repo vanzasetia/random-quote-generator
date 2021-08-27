@@ -85,10 +85,6 @@ Users should be able to:
 - [Eruda - mobile console browser](https://github.com/liriliri/eruda)
 - And many [NPM packages](#prerequisite) 😂
 
-### General Structure
-
-![Structure of the page]()
-
 ### What I Learned
 
 #### Color Contrast
