@@ -93,6 +93,21 @@ Users should be able to:
 
 ### What I Learned
 
+#### Color Contrast
+Basically your text color should have a good contrast with the background color, to make sure that everyone can read the text.
+
+Example:
+
+**Bad Color Contrast**
+
+![Hard to read](./images/bad-contrast.jpg)
+
+**Good Color Contrast**
+
+![Easy to read](./images/good-contrast.jpg)
+
+As you can see, it's much easier to read the text on the second image than the first one. To learn more about color and contrast, you can check the [WebAIM article about Contrast and Color Accessibility](https://webaim.org/articles/contrast/).
+
 ### Useful Resources
 - [Code Newbie | Absolute vs Relative Path](https://community.codenewbie.org/vanzasetia/relative-vs-absolute-file-paths-4j1n) - It's a great article to clarify the confusion between those methods.
 - [Color Contrast Tester](https://colorable.jxnblk.com/) - Color contrast is important for accessibility. I used it when redesigned this app.
@@ -166,7 +181,7 @@ git commit -m "Fixed bugs"
 git push -u origin fixingbugs
 ```
 - After that you can see the `Compare and Pull Request` button and follow the instructions.
-- That's it! Thanks for your contribution! 🤗
+- Finally, you can relax ☕ and wait for your `pull request` to be accepted.
 <!-- ENDOF How To Contribute -->
 
 <!-- Author -->
@@ -190,7 +205,7 @@ git push -u origin fixingbugs
 
 This project is licensed under the terms of the MIT license.
 
-For those of you who are wondering, why do you need to license this? 
+For those of you who are wondering, why do I need to license this? 
 - Well, first it's free 😁.
 - Second I check this [Choose license website](https://choosealicense.com/) to help me choose a license.
 - The last reason, if I don't want to choose a license, then [here's what gonna happen](https://choosealicense.com/no-permission/).
@@ -209,7 +224,7 @@ For those of you who are wondering, why do you need to license this?
 - [choosealicense.com](https://choosealicense.com)
 - [Shields.io](https://shields.io) - For all the badges.
 - [Canva](https://canva.com) - For designing.
-- [Sass Guidelines](https://sass-guidelin.es/)
+- [CSS Guidelines](https://cssguidelin.es/)
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 - [HTML Validator](https://validator.w3.org/)
 - [Font Converter](https://www.fontconverter.io/en) - Convert `ttf` to `woff` and `woff2`
