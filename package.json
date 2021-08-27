@@ -4,7 +4,6 @@
   "description": "Created on 25 August 2021",
   "main": "index.js",
   "scripts": {
-    /*
     "markserv": "markserv README.md",
     
     "devserver": "browser-sync start --server  --watch --port='8080' --no-inject-changes",
