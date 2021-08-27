@@ -1,5 +1,5 @@
 <!-- Banner -->
-![Banner]()
+![Banner](./design/banner.jpg)
 <!-- ENDOF Banner-->
 
 <!-- Badges -->
@@ -31,7 +31,7 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Links](#links)
-  - [Screenshots](#screenshots)
+  - [Preview](#preview)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -66,13 +66,9 @@ Users should be able to:
 - [🌐 Live Review](https://vanzaquotegenerator.netlify.app/)
 - [📖 Code Newbie Article]()
 
-### Screenshots
+### Preview
 
-**Desktop**
-![Desktop]()
-
-**Mobile**
-![Mobile]()
+![Desktop](./design/desktop-preview.jpg)
 
 <!-- ENDOF Overview -->
 
