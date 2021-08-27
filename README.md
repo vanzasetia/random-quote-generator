@@ -35,6 +35,7 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+    - [Color Contrast](#color-contrast)
   - [Useful resources](#useful-resources)
   - [Continued development](#continued-development)
 - [How to contribute](#how-to-contribute)
@@ -198,6 +199,8 @@ git push -u origin fixingbugs
 ## Acknowledgements
 [(Back to top)](#table-of-contents)
 
+Thank you for reaching this point! I hope you learn something new from this. Also, if you want to contribute, it's absolutely fine! Find a typo? Grammar error? Adding new feature? Just follow the [instructions](#how-to-contribute) and you will be good to go.
+
 ## License
 [(Back to top)](#table-of-contents)
 
@@ -230,5 +233,6 @@ For those of you who are wondering, why do I need to license this?
 - [Font Converter](https://www.fontconverter.io/en) - Convert `ttf` to `woff` and `woff2`
 - [Icomoon](https://icomoon.io)
 - [SVGOMG](https://jakearchibald.github.io/svgomg/) - Optimize your SVG files without hard work
+- [typosour.us](https://typosaur.us/) - Free typo checker! Just input your website URL and scan if there's a typo or not.
 
 <!-- ENDOF References -->
