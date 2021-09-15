@@ -38,7 +38,6 @@
     - [Color Contrast](#color-contrast)
     - ["use strict" Method](#use-strict-method)
   - [Useful resources](#useful-resources)
-  - [Continued development](#continued-development)
 - [How to contribute](#how-to-contribute)
   - [Practice](#practice)
   - [Prerequisite](#prerequisite)
@@ -134,12 +133,6 @@ hello = "world" // Still allowed
 - [Flexbox Malven](https://flexbox.malven.co/) - If one day, I forget about flexbox, then this is a great reminder.
 - [Can I Use](https://caniuse.com/) - It helped me to know whether or not that CSS property has been widely supported.
 
-### Continued Development
-Maybe after some time, I will refactor this code or I'm just gonna add small adjustment to this project.
-
-<!-- ENDOF My Process -->
-
-<!-- How To Contribute -->
 ## How To Contribute
 [(Back to top)](#table-of-contents)
 
